@@ -14,7 +14,6 @@ class CardsController extends \Illuminate\Routing\Controller
         "Fish"       => 1,
         "Meat"       => 1,
         "Desserts"   => 2,
-
     ];
 
     /**

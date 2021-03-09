@@ -20,11 +20,15 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body class="antialiased" style="padding: 20px">
         <ol>
         @foreach($cards as $card)
             <li>{{$card->name}}</li>
         @endforeach
         </ol>
+    <br>
+    <br>
+    <br>
+    <a href="/" style="display: inline-block; padding: 8px 10px; background: #718096; border-radius: 3px;">Ещё</a>
     </body>
 </html>

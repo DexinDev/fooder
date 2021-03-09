@@ -23,7 +23,7 @@
     <body class="antialiased" style="padding: 20px">
         <ol>
         @foreach($cards as $card)
-            <li>{{$card->name}}</li>
+            <li><a target="_blank" href="https://trello.com/c/{{$card->id}}">{{$card->name}}</a></li>
         @endforeach
         </ol>
     <br>
